@@ -2,11 +2,12 @@
 Proof of concept: Apache Spark + Cassandra
 
 ## List of examples
-0. Hello World example
-1. Insert data into Cassandra
-2. Join 2 Cassandra tables
-3. Broadcast example
-4. Grouping on a Cassandra's rowKey
+1. Hello World example
+2. Insert data into Cassandra
+3. Join 2 Cassandra tables
+4. Broadcast example
+5. Grouping on a Cassandra's rowKey
+6. Aggregating using `mapPartitions`
 
 
 ## Resources
