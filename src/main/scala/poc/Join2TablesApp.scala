@@ -19,7 +19,7 @@ object Join2TablesApp {
       conf = Some(new SparkConf()
         .setMaster("local[2]")
         .setAppName("Join 2 Tables")
-        .set("spark.app.id", "Join 2 Tables")
+        .set("spark.app.id", "join")
         .set("spark.cassandra.connection.host", "127.0.0.1")
         .set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
         .set("spark.eventLog.enabled", "true")

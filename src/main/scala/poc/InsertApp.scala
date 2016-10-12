@@ -22,7 +22,7 @@ object InsertApp {
       conf = Some(new SparkConf()
         .setMaster("local[2]")
         .setAppName("Insert Data into Cassandra")
-        .set("spark.app.id", "hello world")
+        .set("spark.app.id", "insert")
         .set("spark.cassandra.connection.host", "127.0.0.1")
         .set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
         .set("spark.eventLog.enabled", "true")
