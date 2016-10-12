@@ -6,6 +6,8 @@ Proof of concept: Apache Spark + Cassandra
 1. Insert data into Cassandra
 2. Join 2 Cassandra tables
 
+
+
 ## Resources
 This POC assumes keyspace and tables already exists and has data, 
 see `resouces/cassandra-example.cql`

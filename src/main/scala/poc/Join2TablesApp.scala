@@ -1,9 +1,7 @@
 package poc
 
-import org.apache.spark._
-import org.apache.spark.SparkContext._
-import org.apache.spark.rdd.RDD
 import com.datastax.spark.connector._
+import org.apache.spark._
 
 /**
   * Join 2 Cassandra's tables
@@ -21,7 +19,7 @@ object Join2TablesApp {
       conf = Some(new SparkConf()
         .setMaster("local[2]")
         .setAppName("Join 2 Tables")
-        .set("spark.app.id", "hello world")
+        .set("spark.app.id", "Join 2 Tables")
         .set("spark.cassandra.connection.host", "127.0.0.1")
         .set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
         .set("spark.eventLog.enabled", "true")
