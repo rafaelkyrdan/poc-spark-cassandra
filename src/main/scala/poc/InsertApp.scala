@@ -1,10 +1,8 @@
 package poc
 
 import com.datastax.spark.connector._
-import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark._
 import org.apache.spark.rdd.RDD
-import com.datastax.spark.connector._
+import org.apache.spark.{SparkConf, SparkContext}
 import scala.util.Random
 
 
